@@ -243,6 +243,8 @@ def main():
         if restart.lower() != 'yes':
             break
 
+print ("Thank you for exploring US Bikeshare data")
+
 
 if __name__ == "__main__":
 	main()
