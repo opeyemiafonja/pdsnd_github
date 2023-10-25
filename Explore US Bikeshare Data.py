@@ -152,7 +152,7 @@ def trip_duration_stats(df):
     print('\nCalculating Trip Duration...\n')
     start_time = time.time()
 
-    # display total travel time
+    # display total travel time in the selected option
     total_duration=df['Trip Duration'].sum()
     minute,second=divmod(total_duration,60)
     hour,minute=divmod(minute,60)
@@ -182,7 +182,7 @@ def user_stats(df,city):
     print("The user types are:\n",user_counts)
 
 
-    # Display counts of gender
+    # Display counts of gender 
     if city.title() == 'Chicago' or city.title() == 'New York City':
         gender_counts= df['Gender'].value_counts()
         print("\nThe counts of each gender are:\n",gender_counts)
@@ -242,6 +242,8 @@ def main():
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':
             break
+
+print ("Thank you for exploring US Bikeshare data")
 
 
 if __name__ == "__main__":
