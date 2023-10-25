@@ -36,7 +36,7 @@ def get_filters():
             print("\n Please enter a valid month")    
 
 
-    # get user input for day of week (monday, tuesday, ... sunday or none)
+    # get user input for day of week (monday, tuesday, wednesday, thursday, friday, saturday, sunday or none)
     while True:
         days= ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday','None']
         day = input("\n Which day of the week would you like to consider? (Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday)? Type 'None' for no day filter \n").title()         
