@@ -2,7 +2,7 @@
 25th October 2023
 
 ### Project Title
-Project 3
+Post Bikeshare Project on GitHub
 
 ### Description
 The Project Submission consisted in using Git and Github with a simulated workflow to refactor Project 2:
